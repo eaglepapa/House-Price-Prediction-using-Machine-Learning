@@ -13,6 +13,7 @@
 - [References](#references)
   
 ### Project Overview
+---
 This report applies the Cross-Industry Standard Process for Data Mining (CRISP-DM) methodology to analyze the Miami housing dataset. CRISP-DM offers a structured approach to data mining, guiding the project through six key phases: Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, and Deployment. By following this framework, the goal is to uncover meaningful patterns, extract valuable insights, and provide actionable recommendations for Real Estate Agencies.
 
 ![modell errors](https://github.com/user-attachments/assets/aefaea74-14fc-49b9-902d-2ad02c0302b1)
