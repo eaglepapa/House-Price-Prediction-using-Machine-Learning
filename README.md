@@ -19,7 +19,8 @@ This report applies the Cross-Industry Standard Process for Data Mining (CRISP-D
 ![modell errors](https://github.com/user-attachments/assets/aefaea74-14fc-49b9-902d-2ad02c0302b1)
 
 ### Data Sources
-Sales Data: The dataset used in this analysis was sourced from Kaggle and contains detailed information about housing with variables such as Avg. Area Income, House Age, Number of Rooms, Number of Bedrooms, SquareFeet, Price, Neighborhood, Country, and capital. 
+Housing Data: The dataset used in this analysis was sourced from Kaggle and contains detailed information about housing with variables such as Avg. Area Income, House Age, Number of Rooms, Number of Bedrooms, SquareFeet, Price, Neighborhood, Country, and capital. 
+[miami-housing-dataset](https://www.kaggle.com/datasets/deepcontractor/miami-housing-dataset)
 
 ### Tools
 -R Studio – Data Cleaning, Data Analysis [Download here](https://posit.co/products/open-source/rstudio/)
