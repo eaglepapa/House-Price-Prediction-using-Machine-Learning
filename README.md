@@ -101,7 +101,7 @@ The analysis results are summarized as follows:
 |SALE_PRC and TOT_LVG_AREA|+0.67|Strong|As floor area increases, sale price also increases|
 |CNTR_DIST and  SUBCNTR_DI|+0.77|Strong|As distance to the Miami central business district increases,  distance to the nearest sub center also increases|
 |CNTR_DIST and age|-0.55|Moderate|As age of the structure increases, distance to the Miami central business district decrease|
-4.	The Random Forest Regression using number of trees of 200 was the best model with a Root Mean Squared Error (RMSE) of £105,061.10.
+4.	The Random Forest Regression using number of trees of 200 was the best model with a Root Mean Squared Error (RMSE) of $105,061.10.
 5.	After inputting the values; LND_SQFOOT: 11247, TOTLVGAREA: 4552, SPECFEATVAL: 2105, RAIL_DIST: 4871.9, OCEAN_DIST: 18507.2, WATER_DIST: 375.8, CNTR_DIST: 43897.9, SUBCNTR_DI: 40115.7, HWY_DIST: 41917.1, age: 42, avno60plus: 0, structure_quality: 5, month_sold: 8, into the best model, the predicted house price was $1,227,864.
 
 ### Recommendations
