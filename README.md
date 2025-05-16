@@ -15,6 +15,8 @@
 ### Project Overview
 This report applies the Cross-Industry Standard Process for Data Mining (CRISP-DM) methodology to analyze the Miami housing dataset. CRISP-DM offers a structured approach to data mining, guiding the project through six key phases: Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, and Deployment. By following this framework, the goal is to uncover meaningful patterns, extract valuable insights, and provide actionable recommendations for Real Estate Agencies.
 
+![modell errors](https://github.com/user-attachments/assets/aefaea74-14fc-49b9-902d-2ad02c0302b1)
+
 ### Data Sources
 Sales Data: The dataset used in this analysis was sourced from Kaggle and contains detailed information about housing with variables such as Avg. Area Income, House Age, Number of Rooms, Number of Bedrooms, SquareFeet, Price, Neighborhood, Country, and capital. 
 
@@ -35,10 +37,48 @@ EDA involved exploring the housing data to answer key questions, such as:
 -	What is the best model among the other machine learning models
 -	What will be the predicted house price after inputting the values; PARCELNO: 728980145245, LND_SQFOOT: 11247, TOTLVGAREA: 4552, SPECFEATVAL: 2105, RAIL_DIST: 4871.9, OCEAN_DIST: 18507.2, WATER_DIST: 375.8, CNTR_DIST: 43897.9, SUBCNTR_DI: 40115.7, HWY_DIST: 41917.1, age: 42, avno60plus: 0, structure_quality: 5, month_sold: 8, into the best model.
   
-### Data Analysis
-Include some interesting code/features worked 
-```r 
+  ![corr](https://github.com/user-attachments/assets/4c50f732-4ea4-489a-8f0c-d9aae7d53005)
 
+  
+### Data Analysis 
+```r 
+# Dataframe of Error Metrics - RMSE of all the models created
+model_rmse_df <- data.frame(
+  model = c("LR", "SVR LINEAR","SVR RBF","SVR POLY", "DT", "RF N=100", "RF N=200", "RF N=500"),
+  rmse = c(1.841267e+05, 2.092939e+05, 1.145848e+05, 1.298094e+05, 1.785767e+05, 1.055497e+05, 1.050611e+05, 1.053093e+05)
+)
+
+# Bar chart of Error Metrics - RMSE of all the models created
+ggplot(data = model_rmse_df, aes(x = model, y = rmse)) +
+  geom_bar(stat = "identity", fill = "skyblue") +
+  labs(title = "Bar chart of models RMSE", x = "Model", y = "RMSE")
+
+# Save the trained model object to a file
+saveRDS(rf_model_n200, "rf_model_n200.rds")
+
+# Load the Random Forest Regression model
+rf_model_n200 <- readRDS("rf_model_n200.rds")
+
+# Prepare the input data
+input_data <- data.frame(
+  PARCELNO = 728980145245,
+  LND_SQFOOT = 11247,
+  TOT_LVG_AREA = 4552,
+  SPEC_FEAT_VAL = 2105,
+  RAIL_DIST = 4871.9,
+  OCEAN_DIST = 18507.2,
+  WATER_DIST = 375.8,
+  CNTR_DIST = 43897.9,
+  SUBCNTR_DI = 40115.7,
+  HWY_DIST = 41917.1,
+  age = 42,
+  avno60plus = 0,
+  month_sold = 8,
+  structure_quality = 5
+)
+
+# Make predictions
+predictions <- predict(rf_model_n200, input_data)
 ```
 
 ### Results/Findings
@@ -55,6 +95,9 @@ The analysis results are summarized as follows:
 
 ### Recommendations
 I recommend adopting Random Forest Regression with 200 trees as the predictive model for housing prices, based on the performance illustrated in the bar chart below.
+
+![rmse1](https://github.com/user-attachments/assets/8e03c3d3-5c7e-4409-83fe-cda328dd19ca)
+
 ### Limitations
 The dataset was sourced from Kaggle, and as such, the authenticity and reliability of the data cannot be fully guaranteed. Additionally, Random Forest is considered a black-box model, offering limited interpretability compared to more transparent models like linear regression. This lack of explainability can pose challenges when communicating insights and justifying predictions to stakeholders.
 
