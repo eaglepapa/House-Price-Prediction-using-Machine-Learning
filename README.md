@@ -23,8 +23,14 @@ Housing Data: The dataset used in this analysis was sourced from Kaggle and cont
 [miami-housing-dataset](https://www.kaggle.com/datasets/deepcontractor/miami-housing-dataset)
 
 ### Tools
--R Studio – Data Cleaning, Data Analysis [Download here](https://posit.co/products/open-source/rstudio/)
--Power BI – Creating reports [Down here](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
+- RStudio – Data cleaning and analysis  
+  [Download here](https://posit.co/products/open-source/rstudio/)
+
+- Power BI – Report creation and data visualization  
+  [Download here](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
+
+- Excel – Data cleaning, transformation, and visualization  
+  [Download here](https://www.microsoft.com/en-us/microsoft-365/excel)
 
 #### Data Cleaning/Preparation
 In the initial data preparation please, I performed the following tasks:
