@@ -110,3 +110,14 @@ The dataset was sourced from Kaggle, and as such, the authenticity and reliabili
 6.	HAYES, A. (2023). Multiple Linear Regression (MLR) Definition, Formula, and Example. [Online] Available from: https://www.investopedia.com/terms/m/mlr.asp. [Accessed 24 Apr 2024].
 7.	Prasad, A. (2024) Regression Trees | Decision Tree for Regression | Machine Learning. [Online]. Available from: https://medium.com/analytics-vidhya/regression-trees-decision-tree-for-regression-machine-learning-e4d7525d8047. [Accessed 24 April 2024].
 
+## 📬 Contact
+Feel free to reach out!  
+📧 Email: [oduroprince08@gmail.com](mailto:oduroprince08@gmail.com) &nbsp;|&nbsp; 🔗 LinkedIn: [linkedin.com/in/oduroprince24](https://linkedin.com/in/oduroprince24)
+
+
+🚀
+📊
+📈
+🧠
+
+Thanks for visiting! 😄
