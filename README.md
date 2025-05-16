@@ -37,6 +37,9 @@ In the initial data preparation please, I performed the following tasks:
 1.	Data loading and inspection.
 2.	Handling missing values.
 3.	Data cleaning and formatting.
+4. 	Building the model
+5.	Predicting values
+
    
 ### Exploratory Data Analysis
 EDA involved exploring the housing data to answer key questions, such as: 
