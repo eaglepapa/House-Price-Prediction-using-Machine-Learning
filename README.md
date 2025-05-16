@@ -43,10 +43,10 @@ In the initial data preparation please, I performed the following tasks:
    
 ### Exploratory Data Analysis
 EDA involved exploring the housing data to answer key questions, such as: 
--	What machine learning models can be performed using the provided dataset
--	What is the correlation between X and Y variables in the dataset 
--	What is the best model among the other machine learning models
--	What will be the predicted house price after inputting the values; PARCELNO: 728980145245, LND_SQFOOT: 11247, TOTLVGAREA: 4552, SPECFEATVAL: 2105, RAIL_DIST: 4871.9, OCEAN_DIST: 18507.2, WATER_DIST: 375.8, CNTR_DIST: 43897.9, SUBCNTR_DI: 40115.7, HWY_DIST: 41917.1, age: 42, avno60plus: 0, structure_quality: 5, month_sold: 8, into the best model.
+-	What machine learning models can be performed using the provided dataset?
+-	What is the correlation between X and Y variables in the dataset? 
+-	What is the best model among the other machine learning models?
+-	What will be the predicted house price after inputting the values; PARCELNO: 728980145245, LND_SQFOOT: 11247, TOTLVGAREA: 4552, SPECFEATVAL: 2105, RAIL_DIST: 4871.9, OCEAN_DIST: 18507.2, WATER_DIST: 375.8, CNTR_DIST: 43897.9, SUBCNTR_DI: 40115.7, HWY_DIST: 41917.1, age: 42, avno60plus: 0, structure_quality: 5, month_sold: 8, into the best model?
   
   ![corr](https://github.com/user-attachments/assets/4c50f732-4ea4-489a-8f0c-d9aae7d53005)
 
