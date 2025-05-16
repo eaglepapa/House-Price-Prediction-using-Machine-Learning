@@ -46,7 +46,7 @@ EDA involved exploring the housing data to answer key questions, such as:
 -	What machine learning models can be performed using the provided dataset?
 -	What is the correlation between X and Y variables in the dataset? 
 -	What is the best model among the other machine learning models?
--	What will be the predicted house price after inputting the values; PARCELNO: 728980145245, LND_SQFOOT: 11247, TOTLVGAREA: 4552, SPECFEATVAL: 2105, RAIL_DIST: 4871.9, OCEAN_DIST: 18507.2, WATER_DIST: 375.8, CNTR_DIST: 43897.9, SUBCNTR_DI: 40115.7, HWY_DIST: 41917.1, age: 42, avno60plus: 0, structure_quality: 5, month_sold: 8, into the best model?
+-	What will be the predicted house price after inputting the values; LND_SQFOOT: 11247, TOTLVGAREA: 4552, SPECFEATVAL: 2105, RAIL_DIST: 4871.9, OCEAN_DIST: 18507.2, WATER_DIST: 375.8, CNTR_DIST: 43897.9, SUBCNTR_DI: 40115.7, HWY_DIST: 41917.1, age: 42, avno60plus: 0, structure_quality: 5, month_sold: 8, into the best model?
   
   ![corr](https://github.com/user-attachments/assets/4c50f732-4ea4-489a-8f0c-d9aae7d53005)
 
@@ -101,8 +101,8 @@ The analysis results are summarized as follows:
 |SALE_PRC and TOT_LVG_AREA|+0.67|Strong|As floor area increases, sale price also increases|
 |CNTR_DIST and  SUBCNTR_DI|+0.77|Strong|As distance to the Miami central business district increases,  distance to the nearest sub center also increases|
 |CNTR_DIST and age|-0.55|Moderate|As age of the structure increases, distance to the Miami central business district decrease|
-4.	The Random Forest Regression using number of trees of 200 was the best model with a Root Mean Squared Error (RMSE) of $105,061.1.
-5.	After inputting the values; PARCELNO: 728980145245, LND_SQFOOT: 11247, TOTLVGAREA: 4552, SPECFEATVAL: 2105, RAIL_DIST: 4871.9, OCEAN_DIST: 18507.2, WATER_DIST: 375.8, CNTR_DIST: 43897.9, SUBCNTR_DI: 40115.7, HWY_DIST: 41917.1, age: 42, avno60plus: 0, structure_quality: 5, month_sold: 8, into the best model, the predicted house price was $1,227,864.
+4.	The Random Forest Regression using number of trees of 200 was the best model with a Root Mean Squared Error (RMSE) of £105,061.10.
+5.	After inputting the values; LND_SQFOOT: 11247, TOTLVGAREA: 4552, SPECFEATVAL: 2105, RAIL_DIST: 4871.9, OCEAN_DIST: 18507.2, WATER_DIST: 375.8, CNTR_DIST: 43897.9, SUBCNTR_DI: 40115.7, HWY_DIST: 41917.1, age: 42, avno60plus: 0, structure_quality: 5, month_sold: 8, into the best model, the predicted house price was $1,227,864.
 
 ### Recommendations
 I recommend adopting Random Forest Regression with 200 trees as the predictive model for housing prices, based on the performance illustrated in the bar chart below.
