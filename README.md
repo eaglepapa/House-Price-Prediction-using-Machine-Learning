@@ -43,7 +43,7 @@ In the initial data preparation please, I performed the following tasks:
 
    
 ### Exploratory Data Analysis
-EDA involved exploring the housing data to answer key questions, such as: 
+EDA involved exploring the miami housing data to answer key questions, such as: 
 -	What machine learning models can be performed using the provided dataset?
 -	What is the correlation between X and Y variables in the dataset? 
 -	What is the best model among the other machine learning models?
